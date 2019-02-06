@@ -1,6 +1,6 @@
-int sub(int a, int b)
+long int mul(int a, int b)
 {
-	extern int res;
-	res = a - b;
-	return res;
+	extern long int res1;
+	res1 = a * b;
+	return res1;
 }
