@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<math.h>
-//yhrtty
 int main()
 {
 	int n,num, rem,rem1, sum = 0, base = 0,i=0,a[20],j;
