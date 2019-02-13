@@ -20,9 +20,9 @@ public:
 	}
 	void add(time a, time b)
 	{
-		sec = a.sec + b.sec + (sec / 60);
-		min = a.min + b.min + (min / 60);
-		hrs = a.hrs + b.hrs;
+		sec = a.sec + b.sec;
+		min = a.min + b.min + (sec / 60);
+		hrs = a.hrs + b.hrs+(min/60);
 		sec = sec % 60;
 		min = min % 60;
 	}
