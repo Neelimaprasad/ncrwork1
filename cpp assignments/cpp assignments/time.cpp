@@ -33,4 +33,6 @@ int main()
 	time t1(4,20,40), t2(3,20,30), t3;
 	t3.add(t1, t2);
 	t3.disp();
+	getchar();
+	return 0;
 }
