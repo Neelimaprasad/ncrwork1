@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "student_details", "student_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "complex numbers", "complex numbers\complex numbers.vcxproj", "{E5E1F4CA-30F1-4C9F-864C-2F6F21BC0853}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arithmetic operations", "arithmetic operations\arithmetic operations.vcxproj", "{5CC8E476-6BFA-45F4-80EF-0DA932B5D2F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{E5E1F4CA-30F1-4C9F-864C-2F6F21BC0853}.Release|x64.Build.0 = Release|x64
 		{E5E1F4CA-30F1-4C9F-864C-2F6F21BC0853}.Release|x86.ActiveCfg = Release|Win32
 		{E5E1F4CA-30F1-4C9F-864C-2F6F21BC0853}.Release|x86.Build.0 = Release|Win32
+		{5CC8E476-6BFA-45F4-80EF-0DA932B5D2F0}.Debug|x64.ActiveCfg = Debug|x64
+		{5CC8E476-6BFA-45F4-80EF-0DA932B5D2F0}.Debug|x64.Build.0 = Debug|x64
+		{5CC8E476-6BFA-45F4-80EF-0DA932B5D2F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{5CC8E476-6BFA-45F4-80EF-0DA932B5D2F0}.Debug|x86.Build.0 = Debug|Win32
+		{5CC8E476-6BFA-45F4-80EF-0DA932B5D2F0}.Release|x64.ActiveCfg = Release|x64
+		{5CC8E476-6BFA-45F4-80EF-0DA932B5D2F0}.Release|x64.Build.0 = Release|x64
+		{5CC8E476-6BFA-45F4-80EF-0DA932B5D2F0}.Release|x86.ActiveCfg = Release|Win32
+		{5CC8E476-6BFA-45F4-80EF-0DA932B5D2F0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
