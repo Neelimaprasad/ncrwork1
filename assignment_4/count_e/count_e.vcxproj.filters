@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="counting_e.c">
+    <ClCompile Include="count_e.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
