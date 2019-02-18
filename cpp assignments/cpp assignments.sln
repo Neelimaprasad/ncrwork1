@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "matrix multiplication", "ma
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "constructor", "constructor\constructor.vcxproj", "{48D2C3E9-242E-4578-A617-6009CDB7CF55}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swaping", "swaping\swaping.vcxproj", "{B869750C-5D2F-492D-96B8-4B7FFA9DE527}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{48D2C3E9-242E-4578-A617-6009CDB7CF55}.Release|x64.Build.0 = Release|x64
 		{48D2C3E9-242E-4578-A617-6009CDB7CF55}.Release|x86.ActiveCfg = Release|Win32
 		{48D2C3E9-242E-4578-A617-6009CDB7CF55}.Release|x86.Build.0 = Release|Win32
+		{B869750C-5D2F-492D-96B8-4B7FFA9DE527}.Debug|x64.ActiveCfg = Debug|x64
+		{B869750C-5D2F-492D-96B8-4B7FFA9DE527}.Debug|x64.Build.0 = Debug|x64
+		{B869750C-5D2F-492D-96B8-4B7FFA9DE527}.Debug|x86.ActiveCfg = Debug|Win32
+		{B869750C-5D2F-492D-96B8-4B7FFA9DE527}.Debug|x86.Build.0 = Debug|Win32
+		{B869750C-5D2F-492D-96B8-4B7FFA9DE527}.Release|x64.ActiveCfg = Release|x64
+		{B869750C-5D2F-492D-96B8-4B7FFA9DE527}.Release|x64.Build.0 = Release|x64
+		{B869750C-5D2F-492D-96B8-4B7FFA9DE527}.Release|x86.ActiveCfg = Release|Win32
+		{B869750C-5D2F-492D-96B8-4B7FFA9DE527}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
