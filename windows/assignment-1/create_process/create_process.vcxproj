@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{251B93A1-439A-40C0-B9A0-F54F589215CE}</ProjectGuid>
+    <ProjectGuid>{4713808F-CDCC-4C8F-AC1A-CB5D3D5B0439}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>command_line_arg</RootNamespace>
+    <RootNamespace>create_process</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -145,6 +145,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
