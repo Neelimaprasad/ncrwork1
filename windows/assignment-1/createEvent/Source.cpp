@@ -16,7 +16,7 @@ int _tmain()
 	if (INVALID_HANDLE_VALUE ==Hfile)
 		cout << "event not created" << endl;
 	else
-		//CloseHandle(Hfile);
+		//CloseHandle(Hfile); 
 	
 	getchar();
 
