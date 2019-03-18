@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<script src="jquery-3.3.1.js"></script>
+<script>
+$(document).ready(function(){
+$("input").keyup(function(){
+$("#data").text($("input").val());
+});
+});
+</script>
+<body>
+<form>
+enter data:
+<input type="text"/>
+<br><br/>
+<p id="data"></p>
+</form>
+</body></html>

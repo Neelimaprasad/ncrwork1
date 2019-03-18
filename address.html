@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<script src="jquery-3.3.1.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#same").change(function(){
+	$("#houseno1").val($("#houseno").val());
+	$("#streetno1").val($("#streetno").val());
+	$("#landmark1").val($("#landmark").val());
+	$("#mandal1").val($("#mandal").val());
+	$("#pincode1").val($("#pincode").val());
+	});	
+});
+</script>
+<br/><br/>
+
+<form id="form1">
+	<h1>Permanent Address</h1>
+	House No/Flat No :<input type="text" id="houseno" required/><br/>
+	Street Name :<input type="text" id="streetno" required/><br/>
+	LandMark :<input type="text" id="landmark"/><br/>
+	Mandal :
+	<select id="mandal">
+	<option>santhakaviti</option>
+	<option>karlapalem</option>
+	<option>ponduru</option>
+	<option>cherala</option>
+	</select><br/>
+	Pincode<input type="number" id="pincode" required/><br/>
+
+<br/><br/>
+
+	<h1>Temporary Address Address</h1>
+	Is it same as the Permanent Address?<input type="checkbox" id="same" /><br/>
+	House No/Flat No :<input type="text" id="houseno1" required/><br/>
+	Street Name :<input type="text" id="streetno1" required/><br/>
+	LandMark :<input type="text" id="landmark1"/><br/>
+	Mandal :
+	<select id="mandal1">
+	<option>santhakaviti</option>
+	<option>karlapalem</option>
+	<option>ponduru</option>
+	<option>cherala</option>
+	</select><br/>
+	Pincode<input type="number" id="pincode1" required/><br/>
+</form>
+</html>
