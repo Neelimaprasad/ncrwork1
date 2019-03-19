@@ -19,8 +19,16 @@ int main()
 	char str2[size];//result array
 	int len2=0;//the resukt array size
 	str = (char *)malloc(sizeof(char)*len);//dynamic memory alloaction
+	char ch;
 	printf("\nEnter the stiring\n");
-	scanf("%s", str);
+	//scanf("%s", str);
+	for (int j = 0; j < len; j++) {
+        scanf ("%c", &ch);
+        if (ch == '!' || ch == '@' || ch == '#' || ch == '$' || ch == '%' || ch == '^' || ch == '&' || ch == '*' || ch == '(' || ch == ')') {
+            printf("Invalid character");
+            return 0;
+        }
+	}
 	if (str[0] == '-' || str[len - 1] == '-')
 	{
 		flag = 1;
